@@ -1,0 +1,11 @@
+{
+  "name": "nuxtial-suite",
+  "private": true,
+  "scripts": {
+    "dev": "npx concurrently \"npm run dev --prefix admin -- --port 3001\" \"npm run dev --prefix client -- --port 3000\"",
+    "install-all": "npm install --prefix admin && npm install --prefix client"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
