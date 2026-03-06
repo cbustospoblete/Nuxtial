@@ -1,0 +1,108 @@
+{
+  "id": "inv-001",
+  "slug": "ana-y-carlos",
+  "status": "published",
+  "meta": {
+    "title": "Boda de Ana y Carlos",
+    "description": "¡Nos casamos! Acompáñanos en este día especial.",
+    "ogImage": "https://example.com/ana-carlos-cover.jpg"
+  },
+  "theme": {
+    "id": "classic-romance",
+    "name": "Clásico Romántico",
+    "colors": {
+      "primary": "#D4AF37", 
+      "secondary": "#EAE0C8",
+      "background": "#FAFAFA",
+      "surface": "#FFFFFF",
+      "text": "#333333",
+      "heading": "#1A1A1A",
+      "accent": "#C4A484"
+    },
+    "fonts": {
+      "heading": "Playfair Display",
+      "body": "Lato",
+      "accent": "Great Vibes"
+    },
+    "borderRadius": "sm",
+    "shadows": "soft",
+    "layout": "centered"
+  },
+  "content": {
+    "couple": [
+      {
+        "firstName": "Ana",
+        "lastName": "García",
+        "role": "Bride",
+        "bio": "Amante del café y los libros."
+      },
+      {
+        "firstName": "Carlos",
+        "lastName": "Pérez",
+        "role": "Groom",
+        "bio": "Apasionado por la tecnología y el fútbol."
+      }
+    ],
+    "event": {
+      "date": "2026-10-12",
+      "time": "18:00",
+      "timezone": "America/Bogota",
+      "ceremony": {
+        "name": "Catedral Primada",
+        "address": "Plaza de Bolívar",
+        "city": "Bogotá",
+        "country": "Colombia",
+        "googleMapsUrl": "https://maps.google.com/..."
+      },
+      "reception": {
+        "name": "Club El Nogal",
+        "address": "Cra 7 # 78-96",
+        "city": "Bogotá",
+        "country": "Colombia"
+      }
+    }
+  },
+  "sections": [
+    {
+      "id": "sec-hero",
+      "type": "hero",
+      "isEnabled": true,
+      "order": 1,
+      "data": {
+        "layout": "full-image",
+        "headline": "¡Nos Casamos!",
+        "backgroundImageUrl": "https://example.com/hero-bg.jpg"
+      }
+    },
+    {
+      "id": "sec-story",
+      "type": "story",
+      "isEnabled": true,
+      "order": 2,
+      "title": "Nuestra Historia",
+      "data": {
+        "text": "Todo comenzó en un café hace 5 años...",
+        "timeline": [
+          { "year": "2021", "title": "Primer Encuentro", "description": "Nos conocimos..." },
+          { "year": "2023", "title": "El Sí", "description": "En un viaje a París..." }
+        ]
+      }
+    },
+    {
+      "id": "sec-gallery",
+      "type": "gallery",
+      "isEnabled": true,
+      "order": 3,
+      "title": "Momentos",
+      "data": {
+        "layout": "masonry",
+        "images": [
+          { "url": "https://example.com/img1.jpg" },
+          { "url": "https://example.com/img2.jpg" }
+        ]
+      }
+    }
+  ],
+  "createdAt": "2026-03-01T10:00:00Z",
+  "updatedAt": "2026-03-01T10:00:00Z"
+}
